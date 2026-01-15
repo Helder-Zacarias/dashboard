@@ -5,8 +5,8 @@ import styles from "@/ui/invoices.module.css";
 export default function SearchBar() {
     return(
         <div className={styles.searchBar}>
-            <MagnifyingGlassIcon className="size-5"/>
-            <input type="search" placeholder="Search" className={styles.searchBarInput}/>
+            <MagnifyingGlassIcon className={`size-5 ${styles.searchBarIcon}`}/>
+            <input type="search" placeholder="Search invoices" className={styles.searchBarInput}/>
         </div>
     );
 }
