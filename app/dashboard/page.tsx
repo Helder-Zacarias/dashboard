@@ -1,0 +1,9 @@
+import Nav from "@/ui/Nav";
+import Dashboard from "@/ui/Dashboard";
+
+export default function DashboardPage() {
+  return(
+  <>
+    <Dashboard/>
+  </>);
+}

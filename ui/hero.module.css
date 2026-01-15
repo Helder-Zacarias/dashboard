@@ -1,0 +1,36 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block-start: 3rem;
+}
+
+.presentation {
+  width: 25%;
+  min-width: 25%;
+  padding-inline: 2.5rem;
+}
+
+.presentationText {
+  padding-block-end: 1rem;
+  font-size: 1.25rem;
+  overflow-wrap: break-word;
+}
+
+.imageArea {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginButton {
+  width: 100px;
+  text-align: center;
+  padding-inline-start: 1rem;
+  color: white;
+}
+
+.loginButton:hover {
+  background-color: var(--btn-primary-active);
+}

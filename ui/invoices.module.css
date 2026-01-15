@@ -1,0 +1,26 @@
+.actionButton {
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    border-radius: 12px; gap: 0.5rem;
+    padding: 0.5rem;
+    background-color: var(--btn-primary-neutral);
+    color: var(--text-color-primary);
+}
+
+.actionButton:hover {
+    background-color: var(--btn-primary-active);
+}
+
+.searchBar {
+    padding-block: 1rem;
+    border: 1px solid var(--border-default);
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.searchBarInput {
+    border: none;
+}

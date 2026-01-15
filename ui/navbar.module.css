@@ -1,0 +1,33 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  min-width: 180px;
+  align-self: stretch;
+  height: 100%;
+  gap: 1rem;
+  padding-inline: 0.25rem;
+  padding-block: 0.5rem;
+}
+
+.iconButton {
+  width: 100%;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  background-color: var(--btn-secondary-neutral);
+}
+
+.iconButton:hover {
+  background-color: var(--bg-color);
+  color: var(--btn-secondary-active);
+}
+
+.activeIconButton {
+  background-color: var(--bg-color);
+  color: var(--btn-secondary-active);
+}
+
+.emptyContainer {
+  flex: 1;
+  background-color: var(--btn-secondary-neutral);
+}
