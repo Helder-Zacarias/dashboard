@@ -29,3 +29,7 @@
 .searchBarInput::placeholder, .searchBarIcon {
     color: oklch(44.6% 0.03 256.802);
 }
+
+.flexContainer {
+    display: flex;
+}
